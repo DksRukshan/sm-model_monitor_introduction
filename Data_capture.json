@@ -1,0 +1,21 @@
+{
+    "captureData": {
+      "endpointInput": {
+        "observedContentType": "text/csv",
+        "mode": "INPUT",
+        "data": "110,0,74.5,117,200.8,98,192.2,101,9.8,7,3,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,0,1,0,0,1,0,1,0",
+        "encoding": "CSV"
+      },
+      "endpointOutput": {
+        "observedContentType": "text/csv; charset=utf-8",
+        "mode": "OUTPUT",
+        "data": "0.02134251780807972",
+        "encoding": "CSV"
+      }
+    },
+    "eventMetadata": {
+      "eventId": "00f7d603-cf2d-4040-98f6-d0a1ef9084ca",
+      "inferenceTime": "2025-02-20T06:14:51Z"
+    },
+    "eventVersion": "0"
+  }
