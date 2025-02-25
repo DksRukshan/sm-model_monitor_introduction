@@ -1,0 +1,119 @@
+name inferred_type  numerical_statistics.common.num_present  \
+0           Churn      Integral                                     2333   
+1  Account Length      Integral                                     2333   
+2   VMail Message      Integral                                     2333   
+3        Day Mins    Fractional                                     2333   
+4       Day Calls      Integral                                     2333   
+5        Eve Mins    Fractional                                     2333   
+6       Eve Calls      Integral                                     2333   
+7      Night Mins    Fractional                                     2333   
+8     Night Calls      Integral                                     2333   
+9       Intl Mins    Fractional                                     2333   
+
+   numerical_statistics.common.num_missing  numerical_statistics.mean  \
+0                                        0                   0.139306   
+1                                        0                 101.276897   
+2                                        0                   8.214316   
+3                                        0                 180.226489   
+4                                        0                 100.259323   
+5                                        0                 200.050107   
+6                                        0                  99.573939   
+7                                        0                 201.388598   
+8                                        0                 100.227175   
+9                                        0                  10.253065   
+
+   numerical_statistics.sum  numerical_statistics.std_dev  \
+0                     325.0                      0.346265   
+1                  236279.0                     39.552442   
+2                   19164.0                     13.776908   
+3                  420468.4                     53.987179   
+4                  233905.0                     20.165008   
+5                  466716.9                     50.015928   
+6                  232306.0                     19.675578   
+7                  469839.6                     50.627961   
+8                  233830.0                     19.282029   
+9                   23920.4                      2.778766   
+
+   numerical_statistics.min  numerical_statistics.max  \
+0                       0.0                       1.0   
+1                       1.0                     243.0   
+2                       0.0                      51.0   
+3                       0.0                     350.8   
+4                       0.0                     165.0   
+5                      31.2                     361.8   
+6                      12.0                     170.0   
+7                      23.2                     395.0   
+8                      42.0                     175.0   
+9                       0.0                      18.4   
+
+   numerical_statistics.approximate_num_distinct_values  \
+0                                                  2      
+1                                                208      
+2                                                 45      
+3                                               1466      
+4                                                115      
+5                                               1339      
+6                                                118      
+7                                               1401      
+8                                                110      
+9                                                155      
+
+   numerical_statistics.completeness  \
+0                                1.0   
+1                                1.0   
+2                                1.0   
+3                                1.0   
+4                                1.0   
+5                                1.0   
+6                                1.0   
+7                                1.0   
+8                                1.0   
+9                                1.0   
+
+       numerical_statistics.distribution.kll.buckets  \
+0  [{'lower_bound': 0.0, 'upper_bound': 0.1, 'cou...   
+1  [{'lower_bound': 1.0, 'upper_bound': 25.2, 'co...   
+2  [{'lower_bound': 0.0, 'upper_bound': 5.1, 'cou...   
+3  [{'lower_bound': 0.0, 'upper_bound': 35.08, 'c...   
+4  [{'lower_bound': 0.0, 'upper_bound': 16.5, 'co...   
+5  [{'lower_bound': 31.2, 'upper_bound': 64.26, '...   
+6  [{'lower_bound': 12.0, 'upper_bound': 27.8, 'c...   
+7  [{'lower_bound': 23.2, 'upper_bound': 60.37999...   
+8  [{'lower_bound': 42.0, 'upper_bound': 55.3, 'c...   
+9  [{'lower_bound': 0.0, 'upper_bound': 1.8399999...   
+
+   numerical_statistics.distribution.kll.sketch.parameters.c  \
+0                                               0.64           
+1                                               0.64           
+2                                               0.64           
+3                                               0.64           
+4                                               0.64           
+5                                               0.64           
+6                                               0.64           
+7                                               0.64           
+8                                               0.64           
+9                                               0.64           
+
+   numerical_statistics.distribution.kll.sketch.parameters.k  \
+0                                             2048.0           
+1                                             2048.0           
+2                                             2048.0           
+3                                             2048.0           
+4                                             2048.0           
+5                                             2048.0           
+6                                             2048.0           
+7                                             2048.0           
+8                                             2048.0           
+9                                             2048.0           
+
+   numerical_statistics.distribution.kll.sketch.data  
+0  [[0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 0.0, 1.0,...  
+1  [[119.0, 100.0, 111.0, 181.0, 95.0, 104.0, 70....  
+2  [[19.0, 0.0, 0.0, 40.0, 36.0, 0.0, 0.0, 24.0, ...  
+3  [[178.1, 160.3, 197.1, 105.2, 283.1, 113.6, 23...  
+4  [[110.0, 138.0, 117.0, 61.0, 112.0, 87.0, 122....  
+5  [[212.8, 221.3, 227.8, 341.3, 286.2, 158.6, 29...  
+6  [[100.0, 92.0, 128.0, 79.0, 86.0, 98.0, 112.0,...  
+7  [[226.3, 150.4, 214.0, 165.7, 261.7, 187.7, 20...  
+8  [[123.0, 120.0, 101.0, 97.0, 129.0, 87.0, 112....  
+9  [[10.0, 11.2, 9.3, 6.3, 11.3, 10.5, 0.0, 9.7, ...

@@ -1,0 +1,23 @@
+feature_name constraint_check_type  \
+0       State_IA       data_type_check   
+1       State_PA       data_type_check   
+2       State_AZ       data_type_check   
+3       State_MI       data_type_check   
+4  Area Code_415       data_type_check   
+5       State_NM       data_type_check   
+6       State_DC       data_type_check   
+7  VMail Plan_no       data_type_check   
+8          Churn       data_type_check   
+9       State_AK       data_type_check   
+
+                                                                                                                                            description  
+0  Data type match requirement is not met. Expected data type: Integral, Expected match: 100.0%. Observed: Only 99.67234600262124% of data is Integral.  
+1  Data type match requirement is not met. Expected data type: Integral, Expected match: 100.0%. Observed: Only 99.67234600262124% of data is Integral.  
+2  Data type match requirement is not met. Expected data type: Integral, Expected match: 100.0%. Observed: Only 99.67234600262124% of data is Integral.  
+3  Data type match requirement is not met. Expected data type: Integral, Expected match: 100.0%. Observed: Only 99.67234600262124% of data is Integral.  
+4  Data type match requirement is not met. Expected data type: Integral, Expected match: 100.0%. Observed: Only 99.67234600262124% of data is Integral.  
+5  Data type match requirement is not met. Expected data type: Integral, Expected match: 100.0%. Observed: Only 99.67234600262124% of data is Integral.  
+6  Data type match requirement is not met. Expected data type: Integral, Expected match: 100.0%. Observed: Only 99.67234600262124% of data is Integral.  
+7  Data type match requirement is not met. Expected data type: Integral, Expected match: 100.0%. Observed: Only 99.67234600262124% of data is Integral.  
+8                Data type match requirement is not met. Expected data type: Integral, Expected match: 100.0%. Observed: Only 0.0% of data is Integral.  
+9  Data type match requirement is not met. Expected data type: Integral, Expected match: 100.0%. Observed: Only 99.67234600262124% of data is Integral.

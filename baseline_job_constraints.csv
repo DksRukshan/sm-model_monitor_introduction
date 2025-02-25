@@ -1,0 +1,11 @@
+            name inferred_type  completeness  num_constraints.is_non_negative
+0           Churn      Integral           1.0                             True
+1  Account Length      Integral           1.0                             True
+2   VMail Message      Integral           1.0                             True
+3        Day Mins    Fractional           1.0                             True
+4       Day Calls      Integral           1.0                             True
+5        Eve Mins    Fractional           1.0                             True
+6       Eve Calls      Integral           1.0                             True
+7      Night Mins    Fractional           1.0                             True
+8     Night Calls      Integral           1.0                             True
+9       Intl Mins    Fractional           1.0                             True
